@@ -1,0 +1,113 @@
+/* The Modal (background) */
+.efp-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.efp-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+	position: relative;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+#efp_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#efp_close:hover,
+#efp_close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Header */
+.efp-modal-header {
+    padding: 2px 16px;
+    background-color: #000;
+    color: white;
+	border-bottom: #ea0000 solid 3px;
+}
+
+.efp-modal-header h2 {
+	padding: 0;
+        color: #adadad;
+}
+
+/* Modal Body */
+.efp-modal-body {
+	padding: 2px 16px;
+	background-color: #f5f5f5;
+}
+
+/* Modal Footer */
+.efp-modal-footer {
+    padding: 2px 16px;
+    background-color: #000;
+    color: white;
+}
+
+.efp-modal-footer h3 {
+	padding-top: 10px !important;
+        color: #717171;
+}
+
+/* Modal Content */
+.efp-modal-content {
+  
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+/*
+	Common text styles
+*/
+.efp-center-text {
+	text-align: center;
+}
+
+.efp-justify-text {
+	text-align: justify;
+}
+
+/*
+	Padding for elements in the modal
+*/
+.efp-padding-text {
+	padding: 10px;
+}
+
+.efp-social-box {
+	padding: 20px;
+}

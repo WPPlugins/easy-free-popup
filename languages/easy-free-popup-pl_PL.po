@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Free Popup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-14 21:49+0000\n"
+"PO-Revision-Date: 2017-01-14 21:51+0000\n"
+"Last-Translator: jcuryllo <jozef.curyllo@gmail.com>\n"
+"Language-Team: Polish\n"
+"Language: pl-PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: settings.php:32
+msgid "Main settings"
+msgstr "Główne ustawienia"
+
+#: settings.php:37
+msgid "Show popup for one user only once for ... days"
+msgstr "Pokazuj użytkownikom popup co ... dni"
+
+#: settings.php:46
+msgid "Show popup after specific time"
+msgstr "Pokazuj popup po określonym czasie"
+
+#: settings.php:55
+msgid "Show popup after ... miliseconds after loading a page"
+msgstr "Pokazuj popup po ... milisekundach po załadowaniu strony"
+
+#: settings.php:63
+msgid "Show popup after scrolling a page"
+msgstr "Pokazuj popup w zależności od przewijania strony"
+
+#: settings.php:72
+#, php-format
+msgid "Show popup after scrolling ...% of a page"
+msgstr "Pokazuj popup po przewinięciu ...% strony"
+
+#: settings.php:81
+msgid "Set content"
+msgstr "Ustaw zawartość"
+
+#: settings.php:85
+msgid "Header text"
+msgstr "Tekst nagłówka"
+
+#: settings.php:94
+msgid "Content text"
+msgstr "Główna treść (content)"
+
+#: settings.php:103
+msgid "Footer text"
+msgstr "Tekst stopki"
+
+#: settings.php:112
+msgid "Set links"
+msgstr "Ustaw linki"
+
+#: settings.php:117
+msgid "Link to Facebook"
+msgstr "Link do Facebooka"
+
+#: settings.php:126
+msgid "Link to Twitter"
+msgstr "Link do Twittera"
+
+#: settings.php:135
+msgid "Link to Instagram"
+msgstr "Link do Instagrama"
+
+#: settings.php:144
+msgid "Link to YouTube"
+msgstr "Link do YouTube"
+
+#: settings.php:153
+msgid "Link to LinkedIn"
+msgstr "Link do LinkedIn"
+
+#: settings.php:162
+msgid "Link to Snapchat"
+msgstr "Link do Snapchata"
+
+#. Name of the plugin
+msgid "Easy Free Popup"
+msgstr "Easy Free Popup"
+
+#. Description of the plugin
+msgid "Popup with social media and newsletter box"
+msgstr "Popup with social media and newsletter box"
+
+#. Author of the plugin
+msgid "Józef Curyłło"
+msgstr "Józef Curyłło"
+
+#. Author URI of the plugin
+msgid "http://szalonypecet.pl"
+msgstr "http://szalonypecet.pl"
